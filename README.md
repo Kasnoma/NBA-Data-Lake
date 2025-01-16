@@ -1,7 +1,8 @@
 # NBA DATALAKE
 ## Project Overview
 
-This project is a serverless application that fetches sports game data from an external API and sends notifications to subscribers via Amazon Simple Notification Service (SNS). It uses AWS Lambda, Amazon EventBridge, and the SportsData.io API to deliver game updates in real time.
+This project automates the setup of a data lake for NBA sports analytics using AWS services such as S3, Glue, and Athena. The script fetches player data from the [sportsdata.io](https://sportsdata.io) API, processes it, and uploads it to S3 for further analysis.
+
 
 ## Project Structure
 
@@ -23,9 +24,9 @@ nba-data-lake/
 ## Prerequisites
 Before you commence this project, you must have the following:
 
-**1. Sportdata.io account**: 
+**1. Sportsdata.io account**: 
 
-Create a free tier account on [SportData ](https://sportsdata.io/)
+Create a free tier account on [SportsData ](https://sportsdata.io/)
 
 Follow the steps to get your NBA API Key.
 
@@ -79,6 +80,7 @@ python3 setup_nba_data_lake.py
 ## Project Walkthrough
 
 **Check for  appropriate resources**
+
 Go to your AWS management console and check if these resources have been created:
 
 1. The S3 bucket containing the raw_data from the NBA API.
@@ -86,6 +88,7 @@ Go to your AWS management console and check if these resources have been created
 2. The database and table has been created in AWS Glue.
 
 **Amazon Athena**
+
 Navigate to Amazon Athena and run this query
 ```
 SELECT FirstName, LastName, Position, Team
