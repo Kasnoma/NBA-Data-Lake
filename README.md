@@ -95,3 +95,5 @@ SELECT FirstName, LastName, Position, Team
 FROM nba_players
 WHERE Position = 'PG';
 ```
+
+Clone the repository using `git clone https://github.com/Kasnoma/NBA-Data-Lake.git`
