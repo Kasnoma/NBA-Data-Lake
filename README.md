@@ -5,9 +5,6 @@ This project automates the setup of a data lake for NBA sports analytics using A
 
 
 
-![image](https://github.com/user-attachments/assets/24afd4bd-27d8-45e5-be6a-8ff55f18f594)
-
-
 ## Project Structure
 
 ```
