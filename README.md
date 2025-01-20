@@ -3,6 +3,8 @@
 
 This project automates the setup of a data lake for NBA sports analytics using AWS services such as S3, Glue, and Athena. The script fetches player data from the [sportsdata.io](https://sportsdata.io) API, processes it, and uploads it to S3 for further analysis.
 
+![image](https://github.com/user-attachments/assets/24afd4bd-27d8-45e5-be6a-8ff55f18f594)
+
 
 ## Project Structure
 
