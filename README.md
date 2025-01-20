@@ -25,6 +25,9 @@ nba-data-lake/
 ```    
 
 
+![image](https://github.com/user-attachments/assets/ccc58ef3-cccd-494d-b6a7-3e456d34db71)
+
+
 ## Prerequisites
 Before you commence this project, you must have the following:
 
